@@ -7,4 +7,5 @@ Steps to reproduce.
 3. run "npm test' 
 
 Expected result: Test passed, browsers are closed
+
 Actual result: Test still running, browsers are not closed
