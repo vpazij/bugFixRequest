@@ -1,0 +1,31 @@
+{
+    "name": "bugfixrequest",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "test": "codeceptjs run",
+        "codeceptjs": "codeceptjs run --steps",
+        "codeceptjs:headless": "HEADLESS=true codeceptjs run --steps",
+        "codeceptjs:ui": "codecept-ui --app",
+        "codeceptjs:demo": "codeceptjs run --steps -c node_modules/@codeceptjs/examples",
+        "codeceptjs:demo:headless": "HEADLESS=true codeceptjs run --steps -c node_modules/@codeceptjs/examples",
+        "codeceptjs:demo:ui": "codecept-ui --app  -c node_modules/@codeceptjs/examples"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vpazij/bugFixRequest.git"
+    },
+    "author": "pazii valentin",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/vpazij/bugFixRequest/issues"
+    },
+    "homepage": "https://github.com/vpazij/bugFixRequest#readme",
+    "devDependencies": {
+        "@codeceptjs/configure": "^0.6.2",
+        "@codeceptjs/examples": "^1.2.1",
+        "@codeceptjs/ui": "^0.4.6",
+        "codeceptjs": "^3.1.1",
+        "playwright": "^1.13.1"
+    }
+}
